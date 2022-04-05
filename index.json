@@ -1,0 +1,8 @@
+{
+    "@context":{
+       "@protected":true,
+       "DIDCommMessaging":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
+       "accept":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
+       "routingKeys":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents"
+    }
+ }
