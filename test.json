@@ -1,0 +1,32 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1",
+    "https://raw.githubusercontent.com/c2bo/didcomm-test-context/main/v1/index.json"
+  ],
+  "id": "did:indy:sovrin:123456",
+  "verificationMethod": [{
+      "id": "did:indy:sovrin:123456#verkey",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:indy:sovrin:123456",
+      "publicKeyMultibase": "z789abc"
+    }
+  ],
+  "authentication": [
+    "did:indy:sovrin:123456#verkey"
+  ],
+  "service": [
+    {
+      "id": "did:indy:sovrin:123456#did-communication",
+      "type": "did-communication",
+      "priority": 0,
+      "recipientKeys": [ "#verkey" ],
+      "routingKeys": [ ],
+      "accept": [
+          "didcomm/aip2;env=rfc587",
+          "didcomm/aip2;env=rfc19"
+      ],
+      "serviceEndpoint": "https://example.com"
+    }
+  ]
+}
