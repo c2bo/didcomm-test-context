@@ -3,27 +3,22 @@
         "id": "@id",
         "type": "@type",
         "@protected": true,
-        "did-communication": {
-            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
-            "@protected": true,
-            "@context": {
-                "priority": {
-                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority",
-                    "@type": "@id"
-                },
-                "recipientKeys": {
-                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#recipientKeys",
-                    "@type": "@id"
-                },
-                "routingKeys": {
-                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
-                    "@type": "@id"
-                },
-                "accept": {
-                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
-                    "@type": "@id"
-                }
-            }
+        "did-communication": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
+        "priority": {
+            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority",
+            "@type": "@id"
+        },
+        "recipientKeys": {
+            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#recipientKeys",
+            "@type": "@id"
+        },
+        "routingKeys": {
+            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
+            "@type": "@id"
+        },
+        "accept": {
+            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
+            "@type": "@id"
         }
     }
 }
