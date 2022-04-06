@@ -10,6 +10,12 @@
       "type": "Ed25519VerificationKey2020",
       "controller": "did:indy:sovrin:123456",
       "publicKeyMultibase": "z789abc"
+    },
+    {
+      "id": "did:indy:sovrin:123456#routingKey",
+      "type": "Ed25519VerificationKey2020",
+      "controller": "did:indy:sovrin:123456",
+      "publicKeyMultibase": "zabc789"
     }
   ],
   "authentication": [
@@ -19,9 +25,9 @@
     {
       "id": "did:indy:sovrin:123456#did-communication",
       "type": "did-communication",
-      "priority": 0,
+      "priority": 123,
       "recipientKeys": [ "#verkey" ],
-      "routingKeys": [ ],
+      "routingKeys": [ "#routingKey" ],
       "accept": [
           "didcomm/aip2;env=rfc587",
           "didcomm/aip2;env=rfc19"
