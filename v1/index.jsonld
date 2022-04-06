@@ -1,9 +1,32 @@
- {
-    "@context":{
-       "@protected":true,
-       "DIDCommMessaging":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
-       "accept":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
-       "routingKeys":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
-       "priority":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority"
+{
+    "@context": {
+        "id": "@id",
+        "type": "@type",
+        "@protected": true,
+        "DIDCommMessaging": {
+            "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
+            "@protected": true,
+            "@context": {
+                "priority": {
+                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority",
+                    "@type": "@id"
+                },
+                "recipientKeys": {
+                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#recipientKeys",
+                    "@type": "@id",
+                    "@container": "@set"
+                },
+                "routingKeys": {
+                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
+                    "@type": "@id",
+                    "@container": "@set"
+                },
+                "accept": {
+                    "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
+                    "@type": "@id",
+                    "@container": "@set"
+                }
+            }
+        }
     }
- }
+}
