@@ -4,6 +4,6 @@
        "DIDCommMessaging":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#did-documents",
        "accept":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
        "routingKeys":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
-       "priority":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority",
+       "priority":"https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#priority"
     }
  }
