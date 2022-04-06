@@ -13,18 +13,15 @@
                 },
                 "recipientKeys": {
                     "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#recipientKeys",
-                    "@type": "@id",
-                    "@container": "@set"
+                    "@type": "@id"
                 },
                 "routingKeys": {
                     "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#routingkeys",
-                    "@type": "@id",
-                    "@container": "@set"
+                    "@type": "@id"
                 },
                 "accept": {
                     "@id": "https://github.com/hyperledger/aries-rfcs/tree/main/features/0067-didcomm-diddoc-conventions#accept",
-                    "@type": "@id",
-                    "@container": "@set"
+                    "@type": "@id"
                 }
             }
         }
